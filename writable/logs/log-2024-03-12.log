@@ -1,0 +1,875 @@
+CRITICAL - 2024-03-12 03:08:07 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\komik\detail.php on line 10.
+ 1 APPPATH\Views\komik\detail.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\app\\Views\\komik\\detail.php', 10)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\app\\Views\\komik\\detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('komik/detail', [], true)
+ 5 APPPATH\Controllers\Komik.php(41): view('komik/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Komik->detail('create')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\public\\index.php')
+CRITICAL - 2024-03-12 03:09:46 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\komik\detail.php on line 10.
+ 1 APPPATH\Views\komik\detail.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\app\\Views\\komik\\detail.php', 10)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\app\\Views\\komik\\detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('komik/detail', [], true)
+ 5 APPPATH\Controllers\Komik.php(41): view('komik/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Komik->detail('create')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\public\\index.php')
+CRITICAL - 2024-03-12 03:11:57 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\komik\detail.php on line 10.
+ 1 APPPATH\Views\komik\detail.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\app\\Views\\komik\\detail.php', 10)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\app\\Views\\komik\\detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('komik/detail', [], true)
+ 5 APPPATH\Controllers\Komik.php(41): view('komik/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Komik->detail('create')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\public\\index.php')
+CRITICAL - 2024-03-12 03:15:22 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\komik\detail.php on line 10.
+ 1 APPPATH\Views\komik\detail.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\app\\Views\\komik\\detail.php', 10)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\app\\Views\\komik\\detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('komik/detail', [], true)
+ 5 APPPATH\Controllers\Komik.php(41): view('komik/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Komik->detail('create')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\public\\index.php')
+CRITICAL - 2024-03-12 03:16:50 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\komik\detail.php on line 10.
+ 1 APPPATH\Views\komik\detail.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\app\\Views\\komik\\detail.php', 10)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\app\\Views\\komik\\detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('komik/detail', [], true)
+ 5 APPPATH\Controllers\Komik.php(41): view('komik/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Komik->detail('create')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\public\\index.php')
+CRITICAL - 2024-03-12 03:19:45 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\komik\detail.php on line 10.
+ 1 APPPATH\Views\komik\detail.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\app\\Views\\komik\\detail.php', 10)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\app\\Views\\komik\\detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('komik/detail', [], true)
+ 5 APPPATH\Controllers\Komik.php(41): view('komik/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Komik->detail('create')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\public\\index.php')
+CRITICAL - 2024-03-12 03:36:56 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\komik\detail.php on line 10.
+ 1 APPPATH\Views\komik\detail.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\app\\Views\\komik\\detail.php', 10)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\app\\Views\\komik\\detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('komik/detail', [], true)
+ 5 APPPATH\Controllers\Komik.php(42): view('komik/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Komik->detail('asdasd')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\public\\index.php')
+CRITICAL - 2024-03-12 03:38:54 --> ErrorException: Undefined variable $csrf_field
+in APPPATH\Views\komik\create.php on line 10.
+ 1 APPPATH\Views\komik\create.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $csrf_field', 'D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\app\\Views\\komik\\create.php', 10)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\app\\Views\\komik\\create.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('komik/create', [], true)
+ 5 APPPATH\Controllers\Komik.php(62): view('komik/create', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Komik->create()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\public\\index.php')
+CRITICAL - 2024-03-12 03:39:04 --> ErrorException: Undefined variable $csrf_field
+in APPPATH\Views\komik\create.php on line 10.
+ 1 APPPATH\Views\komik\create.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $csrf_field', 'D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\app\\Views\\komik\\create.php', 10)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\app\\Views\\komik\\create.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('komik/create', [], true)
+ 5 APPPATH\Controllers\Komik.php(62): view('komik/create', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Komik->create()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\public\\index.php')
+CRITICAL - 2024-03-12 03:39:47 --> ErrorException: Undefined variable $csrf_field
+in APPPATH\Views\komik\create.php on line 10.
+ 1 APPPATH\Views\komik\create.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $csrf_field', 'D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\app\\Views\\komik\\create.php', 10)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\app\\Views\\komik\\create.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('komik/create', [], true)
+ 5 APPPATH\Controllers\Komik.php(62): view('komik/create', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Komik->create()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\public\\index.php')
+CRITICAL - 2024-03-12 03:39:52 --> ErrorException: Undefined variable $csrf_field
+in APPPATH\Views\komik\create.php on line 10.
+ 1 APPPATH\Views\komik\create.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $csrf_field', 'D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\app\\Views\\komik\\create.php', 10)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\app\\Views\\komik\\create.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('komik/create', [], true)
+ 5 APPPATH\Controllers\Komik.php(62): view('komik/create', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Komik->create()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\public\\index.php')
+CRITICAL - 2024-03-12 03:50:07 --> CodeIgniter\Database\Exceptions\DataException: Allowed fields must be specified for model: "App\Models\KomikModel"
+in SYSTEMPATH\Model.php on line 766.
+ 1 SYSTEMPATH\Model.php(766): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\KomikModel')
+ 2 SYSTEMPATH\BaseModel.php(783): CodeIgniter\Model->doProtectFieldsForInsert([...])
+ 3 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], false)
+ 4 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->insert([...], false)
+ 5 APPPATH\Controllers\Komik.php(74): CodeIgniter\BaseModel->save([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Komik->save()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\public\\index.php')
+ERROR - 2024-03-12 03:52:15 --> mysqli_sql_exception: Column 'slug' cannot be null in D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `ko...', 0)
+#1 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ko...')
+#2 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ko...')
+#3 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ko...', Array, false)
+#4 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, false)
+#7 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\BaseModel.php(713): CodeIgniter\Model->insert(Array, false)
+#8 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\app\Controllers\Komik.php(74): CodeIgniter\BaseModel->save(Array)
+#9 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\CodeIgniter.php(941): App\Controllers\Komik->save()
+#10 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#11 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKT...')
+#14 {main}
+CRITICAL - 2024-03-12 03:52:15 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'slug' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `komik` (`judul`, `slug`, `penulis`, `created_at`, `updated_at`) VALUES (:judul:, :slug:, :penulis:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Komik.php(74): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Komik->save()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\public\\index.php')
+CRITICAL - 2024-03-12 03:52:15 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'slug' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `komik` (`judul`, `slug`, `penulis`, `created_at`, `updated_at`) VALUES (\'Berserk\', NULL, \'Udin\', \'2024-03-12 03:52:15\', \'2024-03-12 03:52:15\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `komik` (`judul`, `slug`, `penulis`, `created_at`, `updated_at`) VALUES (\'Berserk\', NULL, \'Udin\', \'2024-03-12 03:52:15\', \'2024-03-12 03:52:15\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `komik` (`judul`, `slug`, `penulis`, `created_at`, `updated_at`) VALUES (:judul:, :slug:, :penulis:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\Komik.php(74): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Komik->save()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\public\\index.php')
+CRITICAL - 2024-03-12 03:52:15 --> [Caused by] mysqli_sql_exception: Column 'slug' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `komik` (`judul`, `slug`, `penulis`, `created_at`, `updated_at`) VALUES (\'Berserk\', NULL, \'Udin\', \'2024-03-12 03:52:15\', \'2024-03-12 03:52:15\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `komik` (`judul`, `slug`, `penulis`, `created_at`, `updated_at`) VALUES (\'Berserk\', NULL, \'Udin\', \'2024-03-12 03:52:15\', \'2024-03-12 03:52:15\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `komik` (`judul`, `slug`, `penulis`, `created_at`, `updated_at`) VALUES (\'Berserk\', NULL, \'Udin\', \'2024-03-12 03:52:15\', \'2024-03-12 03:52:15\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `komik` (`judul`, `slug`, `penulis`, `created_at`, `updated_at`) VALUES (:judul:, :slug:, :penulis:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Komik.php(74): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Komik->save()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\public\\index.php')
+ERROR - 2024-03-12 03:52:37 --> mysqli_sql_exception: Column 'slug' cannot be null in D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `ko...', 0)
+#1 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ko...')
+#2 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ko...')
+#3 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ko...', Array, false)
+#4 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, false)
+#7 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\BaseModel.php(713): CodeIgniter\Model->insert(Array, false)
+#8 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\app\Controllers\Komik.php(74): CodeIgniter\BaseModel->save(Array)
+#9 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\CodeIgniter.php(941): App\Controllers\Komik->save()
+#10 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#11 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKT...')
+#14 {main}
+CRITICAL - 2024-03-12 03:52:37 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'slug' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `komik` (`judul`, `slug`, `penulis`, `sampul`, `created_at`, `updated_at`) VALUES (:judul:, :slug:, :penulis:, :sampul:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Komik.php(74): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Komik->save()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\public\\index.php')
+CRITICAL - 2024-03-12 03:52:37 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'slug' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `komik` (`judul`, `slug`, `penulis`, `sampul`, `created_at`, `updated_at`) VALUES (\'Berserk\', NULL, \'Udin\', \'\', \'2024-03-12 03:52:37\', \'2024-03-12 03:52:37\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `komik` (`judul`, `slug`, `penulis`, `sampul`, `created_at`, `updated_at`) VALUES (\'Berserk\', NULL, \'Udin\', \'\', \'2024-03-12 03:52:37\', \'2024-03-12 03:52:37\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `komik` (`judul`, `slug`, `penulis`, `sampul`, `created_at`, `updated_at`) VALUES (:judul:, :slug:, :penulis:, :sampul:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\Komik.php(74): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Komik->save()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\public\\index.php')
+CRITICAL - 2024-03-12 03:52:37 --> [Caused by] mysqli_sql_exception: Column 'slug' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `komik` (`judul`, `slug`, `penulis`, `sampul`, `created_at`, `updated_at`) VALUES (\'Berserk\', NULL, \'Udin\', \'\', \'2024-03-12 03:52:37\', \'2024-03-12 03:52:37\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `komik` (`judul`, `slug`, `penulis`, `sampul`, `created_at`, `updated_at`) VALUES (\'Berserk\', NULL, \'Udin\', \'\', \'2024-03-12 03:52:37\', \'2024-03-12 03:52:37\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `komik` (`judul`, `slug`, `penulis`, `sampul`, `created_at`, `updated_at`) VALUES (\'Berserk\', NULL, \'Udin\', \'\', \'2024-03-12 03:52:37\', \'2024-03-12 03:52:37\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `komik` (`judul`, `slug`, `penulis`, `sampul`, `created_at`, `updated_at`) VALUES (:judul:, :slug:, :penulis:, :sampul:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Komik.php(74): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Komik->save()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\public\\index.php')
+ERROR - 2024-03-12 03:52:42 --> mysqli_sql_exception: Column 'slug' cannot be null in D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `ko...', 0)
+#1 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ko...')
+#2 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ko...')
+#3 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ko...', Array, false)
+#4 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, false)
+#7 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\BaseModel.php(713): CodeIgniter\Model->insert(Array, false)
+#8 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\app\Controllers\Komik.php(74): CodeIgniter\BaseModel->save(Array)
+#9 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\CodeIgniter.php(941): App\Controllers\Komik->save()
+#10 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#11 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKT...')
+#14 {main}
+CRITICAL - 2024-03-12 03:52:42 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'slug' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `komik` (`judul`, `slug`, `penulis`, `sampul`, `created_at`, `updated_at`) VALUES (:judul:, :slug:, :penulis:, :sampul:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Komik.php(74): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Komik->save()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\public\\index.php')
+CRITICAL - 2024-03-12 03:52:42 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'slug' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `komik` (`judul`, `slug`, `penulis`, `sampul`, `created_at`, `updated_at`) VALUES (\'berser\', NULL, \'\', \'\', \'2024-03-12 03:52:42\', \'2024-03-12 03:52:42\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `komik` (`judul`, `slug`, `penulis`, `sampul`, `created_at`, `updated_at`) VALUES (\'berser\', NULL, \'\', \'\', \'2024-03-12 03:52:42\', \'2024-03-12 03:52:42\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `komik` (`judul`, `slug`, `penulis`, `sampul`, `created_at`, `updated_at`) VALUES (:judul:, :slug:, :penulis:, :sampul:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\Komik.php(74): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Komik->save()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\public\\index.php')
+CRITICAL - 2024-03-12 03:52:42 --> [Caused by] mysqli_sql_exception: Column 'slug' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `komik` (`judul`, `slug`, `penulis`, `sampul`, `created_at`, `updated_at`) VALUES (\'berser\', NULL, \'\', \'\', \'2024-03-12 03:52:42\', \'2024-03-12 03:52:42\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `komik` (`judul`, `slug`, `penulis`, `sampul`, `created_at`, `updated_at`) VALUES (\'berser\', NULL, \'\', \'\', \'2024-03-12 03:52:42\', \'2024-03-12 03:52:42\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `komik` (`judul`, `slug`, `penulis`, `sampul`, `created_at`, `updated_at`) VALUES (\'berser\', NULL, \'\', \'\', \'2024-03-12 03:52:42\', \'2024-03-12 03:52:42\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `komik` (`judul`, `slug`, `penulis`, `sampul`, `created_at`, `updated_at`) VALUES (:judul:, :slug:, :penulis:, :sampul:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Komik.php(74): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Komik->save()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\public\\index.php')
+CRITICAL - 2024-03-12 04:04:35 --> ParseError: syntax error, unexpected identifier "redirect"
+in APPPATH\Controllers\Komik.php on line 79.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\app\\Controllers\\Komik.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Komik')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Komik')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\Komik', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\public\\index.php')
+CRITICAL - 2024-03-12 04:04:39 --> ParseError: syntax error, unexpected identifier "redirect"
+in APPPATH\Controllers\Komik.php on line 79.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\app\\Controllers\\Komik.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Komik')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Komik')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\Komik', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\public\\index.php')
+CRITICAL - 2024-03-12 04:04:42 --> ParseError: syntax error, unexpected identifier "redirect"
+in APPPATH\Controllers\Komik.php on line 79.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\app\\Controllers\\Komik.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Komik')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Komik')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\Komik', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\public\\index.php')
+INFO - 2024-03-12 04:09:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 04:09:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 04:09:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 04:10:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 04:10:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 04:19:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 04:19:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 04:19:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 04:48:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 04:48:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 04:51:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 04:51:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 04:51:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 04:52:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-12 04:52:32 --> ErrorException: Undefined global variable $_SESSION
+in APPPATH\Views\komik\index.php on line 8.
+ 1 APPPATH\Views\komik\index.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined global variable $_SESSION', 'D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\app\\Views\\komik\\index.php', 8)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\app\\Views\\komik\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('komik/index', [], true)
+ 5 APPPATH\Controllers\Komik.php(32): view('komik/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Komik->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\public\\index.php')
+INFO - 2024-03-12 05:07:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 05:07:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 05:07:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 05:07:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 05:26:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 05:26:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 05:26:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 05:26:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 05:26:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 05:35:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 05:35:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 05:35:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 05:35:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 05:35:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 05:35:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 05:35:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 05:35:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 05:35:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 05:35:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 05:35:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 05:35:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 05:36:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-12 05:36:38 --> Error: Call to undefined method CodeIgniter\Validation\Validation::listError()
+in APPPATH\Views\komik\create.php on line 7.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('komik/create', [], true)
+ 4 APPPATH\Controllers\Komik.php(67): view('komik/create', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Komik->create()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\public\\index.php')
+INFO - 2024-03-12 05:36:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 05:36:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 05:36:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 05:37:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 05:37:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 05:37:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 05:38:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 05:38:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 05:38:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 05:39:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 05:39:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 05:39:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 05:39:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 05:39:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 05:39:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 05:39:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 05:39:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 05:39:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 05:45:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 05:46:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 05:46:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 05:46:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 05:52:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 05:52:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 05:52:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-12 05:52:30 --> ErrorException: Undefined variable $esc
+in APPPATH\Views\komik\create.php on line 8.
+ 1 APPPATH\Views\komik\create.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $esc', 'D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\app\\Views\\komik\\create.php', 8)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\app\\Views\\komik\\create.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('komik/create', [], true)
+ 5 APPPATH\Controllers\Komik.php(67): view('komik/create', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Komik->create()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\public\\index.php')
+INFO - 2024-03-12 05:52:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 05:52:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 05:52:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 05:52:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 05:54:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 05:54:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 05:54:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 05:54:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 05:54:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 05:54:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 05:54:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 05:54:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 05:54:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 05:55:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 05:55:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 05:55:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 05:55:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 06:15:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 06:15:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 06:15:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 06:16:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 06:16:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 06:16:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 06:16:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 06:16:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 06:16:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 06:17:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 06:17:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 06:19:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 06:19:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 06:20:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 06:20:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-03-12 16:51:23 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'ci4tutorial', 3306, '', 0)
+#1 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\app\Models\KomikModel.php(17): CodeIgniter\BaseModel->findAll()
+#7 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\app\Controllers\Komik.php(31): App\Models\KomikModel->getKomik()
+#8 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\CodeIgniter.php(941): App\Controllers\Komik->index()
+#9 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#10 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKT...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#5 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\app\Models\KomikModel.php(17): CodeIgniter\BaseModel->findAll()
+#6 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\app\Controllers\Komik.php(31): App\Models\KomikModel->getKomik()
+#7 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\CodeIgniter.php(941): App\Controllers\Komik->index()
+#8 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#9 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKT...')
+#12 {main}
+CRITICAL - 2024-03-12 16:51:23 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `komik`', [], false)
+ 3 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\KomikModel.php(17): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\Komik.php(31): App\Models\KomikModel->getKomik()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Komik->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\public\\index.php')
+INFO - 2024-03-12 16:51:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 16:51:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 16:52:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 16:52:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 16:52:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 16:52:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 16:52:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 16:56:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 17:07:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 17:07:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 17:07:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 17:08:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 17:08:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 17:08:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 17:08:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 17:09:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 17:09:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 17:09:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 17:09:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 17:09:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 17:09:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 17:09:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 17:14:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 17:14:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 17:14:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-12 17:51:22 --> ParseError: syntax error, unexpected double-quoted string "pada hari ", expecting "," or ";"
+in APPPATH\Controllers\Welcome.php on line 9.
+ 1 SYSTEMPATH\Router\Router.php(515): CodeIgniter\Router\AutoRouter->getRoute('welcome', 'get')
+ 2 SYSTEMPATH\Router\Router.php(211): CodeIgniter\Router\Router->autoRoute('welcome')
+ 3 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle('welcome')
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\public\\index.php')
+CRITICAL - 2024-03-12 17:55:00 --> Error: Call to undefined function App\Controllers\format_rupiah()
+in APPPATH\Controllers\Welcome.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Welcome->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Welcome))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\public\\index.php')
+CRITICAL - 2024-03-12 17:56:05 --> ArgumentCountError: Too few arguments to function App\Controllers\Welcome::index(), 0 passed in D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\CodeIgniter.php on line 941 and exactly 1 expected
+in APPPATH\Controllers\Welcome.php on line 7.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Welcome->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Welcome))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\public\\index.php')
+CRITICAL - 2024-03-12 17:57:08 --> Error: Call to undefined function App\Controllers\format_rupiah()
+in APPPATH\Controllers\Welcome.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Welcome->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Welcome))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\public\\index.php')
+CRITICAL - 2024-03-12 18:01:04 --> Error: Call to undefined function number_to_size()
+in APPPATH\Helpers\format_helper.php on line 4.
+ 1 APPPATH\Controllers\Welcome.php(8): format_rupiah('2500000')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Welcome->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Welcome))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\public\\index.php')
+CRITICAL - 2024-03-12 18:17:40 --> ErrorException: Array to string conversion
+in APPPATH\Controllers\Welcome.php on line 15.
+ 1 APPPATH\Controllers\Welcome.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\app\\Controllers\\Welcome.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Welcome->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Welcome))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\public\\index.php')
+CRITICAL - 2024-03-12 18:17:50 --> ErrorException: Array to string conversion
+in APPPATH\Controllers\Welcome.php on line 15.
+ 1 APPPATH\Controllers\Welcome.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\app\\Controllers\\Welcome.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Welcome->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Welcome))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\public\\index.php')
+CRITICAL - 2024-03-12 18:18:43 --> ErrorException: Array to string conversion
+in APPPATH\Controllers\Welcome.php on line 15.
+ 1 APPPATH\Controllers\Welcome.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\app\\Controllers\\Welcome.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Welcome->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Welcome))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\public\\index.php')
+CRITICAL - 2024-03-12 18:18:44 --> ErrorException: Array to string conversion
+in APPPATH\Controllers\Welcome.php on line 15.
+ 1 APPPATH\Controllers\Welcome.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\app\\Controllers\\Welcome.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Welcome->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Welcome))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\public\\index.php')
+CRITICAL - 2024-03-12 18:18:45 --> ErrorException: Array to string conversion
+in APPPATH\Controllers\Welcome.php on line 15.
+ 1 APPPATH\Controllers\Welcome.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\app\\Controllers\\Welcome.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Welcome->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Welcome))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\public\\index.php')
+CRITICAL - 2024-03-12 18:19:06 --> ErrorException: Array to string conversion
+in APPPATH\Controllers\Welcome.php on line 15.
+ 1 APPPATH\Controllers\Welcome.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\app\\Controllers\\Welcome.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Welcome->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Welcome))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\public\\index.php')
+CRITICAL - 2024-03-12 18:20:11 --> ErrorException: Array to string conversion
+in APPPATH\Controllers\Welcome.php on line 16.
+ 1 APPPATH\Controllers\Welcome.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\app\\Controllers\\Welcome.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Welcome->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Welcome))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\public\\index.php')
+CRITICAL - 2024-03-12 18:20:21 --> ArgumentCountError: Too few arguments to function App\Controllers\Welcome::index(), 0 passed in D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\CodeIgniter.php on line 941 and exactly 1 expected
+in APPPATH\Controllers\Welcome.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Welcome->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Welcome))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\public\\index.php')
+CRITICAL - 2024-03-12 18:20:32 --> ErrorException: Array to string conversion
+in APPPATH\Controllers\Welcome.php on line 16.
+ 1 APPPATH\Controllers\Welcome.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\app\\Controllers\\Welcome.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Welcome->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Welcome))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\public\\index.php')
+CRITICAL - 2024-03-12 18:22:46 --> ErrorException: Undefined variable $string
+in APPPATH\Controllers\Welcome.php on line 21.
+ 1 APPPATH\Controllers\Welcome.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $string', 'D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\app\\Controllers\\Welcome.php', 21)
+ 2 SYSTEMPATH\Router\AutoRouter.php(162): include_once('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\app\\Controllers\\Welcome.php')
+ 3 SYSTEMPATH\Router\Router.php(515): CodeIgniter\Router\AutoRouter->getRoute('welcome', 'get')
+ 4 SYSTEMPATH\Router\Router.php(211): CodeIgniter\Router\Router->autoRoute('welcome')
+ 5 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle('welcome')
+ 6 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\public\\index.php')
+CRITICAL - 2024-03-12 18:22:47 --> ErrorException: Undefined variable $string
+in APPPATH\Controllers\Welcome.php on line 21.
+ 1 APPPATH\Controllers\Welcome.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $string', 'D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\app\\Controllers\\Welcome.php', 21)
+ 2 SYSTEMPATH\Router\AutoRouter.php(162): include_once('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\app\\Controllers\\Welcome.php')
+ 3 SYSTEMPATH\Router\Router.php(515): CodeIgniter\Router\AutoRouter->getRoute('welcome', 'get')
+ 4 SYSTEMPATH\Router\Router.php(211): CodeIgniter\Router\Router->autoRoute('welcome')
+ 5 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle('welcome')
+ 6 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\public\\index.php')
+CRITICAL - 2024-03-12 18:23:36 --> ErrorException: Undefined variable $string
+in APPPATH\Controllers\Welcome.php on line 22.
+ 1 APPPATH\Controllers\Welcome.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $string', 'D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\app\\Controllers\\Welcome.php', 22)
+ 2 SYSTEMPATH\Router\AutoRouter.php(162): include_once('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\app\\Controllers\\Welcome.php')
+ 3 SYSTEMPATH\Router\Router.php(515): CodeIgniter\Router\AutoRouter->getRoute('welcome', 'get')
+ 4 SYSTEMPATH\Router\Router.php(211): CodeIgniter\Router\Router->autoRoute('welcome')
+ 5 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle('welcome')
+ 6 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\public\\index.php')
+CRITICAL - 2024-03-12 18:23:43 --> ParseError: syntax error, unexpected token "<", expecting end of file
+in APPPATH\Controllers\Welcome.php on line 22.
+ 1 SYSTEMPATH\Router\Router.php(515): CodeIgniter\Router\AutoRouter->getRoute('welcome', 'get')
+ 2 SYSTEMPATH\Router\Router.php(211): CodeIgniter\Router\Router->autoRoute('welcome')
+ 3 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle('welcome')
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\public\\index.php')
+CRITICAL - 2024-03-12 18:23:49 --> ErrorException: Undefined variable $string
+in APPPATH\Controllers\Welcome.php on line 22.
+ 1 APPPATH\Controllers\Welcome.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $string', 'D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\app\\Controllers\\Welcome.php', 22)
+ 2 SYSTEMPATH\Router\AutoRouter.php(162): include_once('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\app\\Controllers\\Welcome.php')
+ 3 SYSTEMPATH\Router\Router.php(515): CodeIgniter\Router\AutoRouter->getRoute('welcome', 'get')
+ 4 SYSTEMPATH\Router\Router.php(211): CodeIgniter\Router\Router->autoRoute('welcome')
+ 5 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle('welcome')
+ 6 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\public\\index.php')
+CRITICAL - 2024-03-12 18:25:39 --> ErrorException: Undefined variable $string
+in APPPATH\Controllers\Welcome.php on line 25.
+ 1 APPPATH\Controllers\Welcome.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $string', 'D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\app\\Controllers\\Welcome.php', 25)
+ 2 SYSTEMPATH\Router\AutoRouter.php(162): include_once('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\app\\Controllers\\Welcome.php')
+ 3 SYSTEMPATH\Router\Router.php(515): CodeIgniter\Router\AutoRouter->getRoute('welcome', 'get')
+ 4 SYSTEMPATH\Router\Router.php(211): CodeIgniter\Router\Router->autoRoute('welcome')
+ 5 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle('welcome')
+ 6 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\public\\index.php')
+CRITICAL - 2024-03-12 18:25:39 --> ErrorException: Undefined variable $string
+in APPPATH\Controllers\Welcome.php on line 25.
+ 1 APPPATH\Controllers\Welcome.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $string', 'D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\app\\Controllers\\Welcome.php', 25)
+ 2 SYSTEMPATH\Router\AutoRouter.php(162): include_once('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\app\\Controllers\\Welcome.php')
+ 3 SYSTEMPATH\Router\Router.php(515): CodeIgniter\Router\AutoRouter->getRoute('welcome', 'get')
+ 4 SYSTEMPATH\Router\Router.php(211): CodeIgniter\Router\Router->autoRoute('welcome')
+ 5 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle('welcome')
+ 6 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\public\\index.php')
+CRITICAL - 2024-03-12 18:25:40 --> ErrorException: Undefined variable $string
+in APPPATH\Controllers\Welcome.php on line 25.
+ 1 APPPATH\Controllers\Welcome.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $string', 'D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\app\\Controllers\\Welcome.php', 25)
+ 2 SYSTEMPATH\Router\AutoRouter.php(162): include_once('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\app\\Controllers\\Welcome.php')
+ 3 SYSTEMPATH\Router\Router.php(515): CodeIgniter\Router\AutoRouter->getRoute('welcome', 'get')
+ 4 SYSTEMPATH\Router\Router.php(211): CodeIgniter\Router\Router->autoRoute('welcome')
+ 5 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle('welcome')
+ 6 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\public\\index.php')
+CRITICAL - 2024-03-12 18:28:24 --> Error: Call to undefined function App\Controllers\img()
+in APPPATH\Controllers\Welcome.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Welcome->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Welcome))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\public\\index.php')
+CRITICAL - 2024-03-12 18:28:35 --> Error: Call to undefined function App\Controllers\img()
+in APPPATH\Controllers\Welcome.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Welcome->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Welcome))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\public\\index.php')
+CRITICAL - 2024-03-12 18:28:36 --> Error: Call to undefined function App\Controllers\img()
+in APPPATH\Controllers\Welcome.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Welcome->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Welcome))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\public\\index.php')
+CRITICAL - 2024-03-12 18:28:36 --> Error: Call to undefined function App\Controllers\img()
+in APPPATH\Controllers\Welcome.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Welcome->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Welcome))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\public\\index.php')
+CRITICAL - 2024-03-12 18:28:37 --> Error: Call to undefined function App\Controllers\img()
+in APPPATH\Controllers\Welcome.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Welcome->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Welcome))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\public\\index.php')
+CRITICAL - 2024-03-12 18:28:37 --> Error: Call to undefined function App\Controllers\img()
+in APPPATH\Controllers\Welcome.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Welcome->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Welcome))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\public\\index.php')
+CRITICAL - 2024-03-12 18:28:37 --> Error: Call to undefined function App\Controllers\img()
+in APPPATH\Controllers\Welcome.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Welcome->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Welcome))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\public\\index.php')
+CRITICAL - 2024-03-12 18:28:37 --> Error: Call to undefined function App\Controllers\img()
+in APPPATH\Controllers\Welcome.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Welcome->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Welcome))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\public\\index.php')
+CRITICAL - 2024-03-12 18:28:37 --> Error: Call to undefined function App\Controllers\img()
+in APPPATH\Controllers\Welcome.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Welcome->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Welcome))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\public\\index.php')
+CRITICAL - 2024-03-12 18:29:35 --> ArgumentCountError: ctype_alpha() expects exactly 1 argument, 2 given
+in APPPATH\Controllers\Welcome.php on line 19.
+ 1 APPPATH\Controllers\Welcome.php(19): ctype_alpha('string one', 'string two')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Welcome->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Welcome))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\public\\index.php')
+CRITICAL - 2024-03-12 18:34:18 --> ErrorException: Array to string conversion
+in APPPATH\Controllers\Welcome.php on line 23.
+ 1 APPPATH\Controllers\Welcome.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\app\\Controllers\\Welcome.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Welcome->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Welcome))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\public\\index.php')
+CRITICAL - 2024-03-12 18:45:01 --> ErrorException: Array to string conversion
+in APPPATH\Controllers\Welcome.php on line 19.
+ 1 APPPATH\Controllers\Welcome.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\app\\Controllers\\Welcome.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Welcome->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Welcome))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\public\\index.php')
+CRITICAL - 2024-03-12 18:49:53 --> ArgumentCountError: timezone_open() expects exactly 1 argument, 0 given
+in APPPATH\Controllers\Welcome.php on line 16.
+ 1 APPPATH\Controllers\Welcome.php(16): timezone_open()
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Welcome->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Welcome))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\public\\index.php')
+CRITICAL - 2024-03-12 18:50:01 --> ArgumentCountError: timezone_open() expects exactly 1 argument, 0 given
+in APPPATH\Controllers\Welcome.php on line 16.
+ 1 APPPATH\Controllers\Welcome.php(16): timezone_open()
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Welcome->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Welcome))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\public\\index.php')
+CRITICAL - 2024-03-12 18:54:04 --> ArgumentCountError: timezone_open() expects exactly 1 argument, 0 given
+in APPPATH\Controllers\Welcome.php on line 19.
+ 1 APPPATH\Controllers\Welcome.php(19): timezone_open()
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Welcome->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Welcome))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\public\\index.php')
+CRITICAL - 2024-03-12 18:56:36 --> Error: Call to undefined function App\Controllers\mail_to()
+in APPPATH\Controllers\Welcome.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Welcome->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Welcome))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\public\\index.php')
+INFO - 2024-03-12 18:59:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 19:09:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 19:45:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 19:45:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 19:45:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

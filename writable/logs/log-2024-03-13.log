@@ -1,0 +1,121 @@
+ERROR - 2024-03-13 14:59:41 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'ci4tutorial', 3306, '', 0)
+#1 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\app\Models\KomikModel.php(17): CodeIgniter\BaseModel->findAll()
+#7 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\app\Controllers\Komik.php(31): App\Models\KomikModel->getKomik()
+#8 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\CodeIgniter.php(941): App\Controllers\Komik->index()
+#9 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#10 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKT...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#5 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\app\Models\KomikModel.php(17): CodeIgniter\BaseModel->findAll()
+#6 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\app\Controllers\Komik.php(31): App\Models\KomikModel->getKomik()
+#7 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\CodeIgniter.php(941): App\Controllers\Komik->index()
+#8 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#9 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKT...')
+#12 {main}
+CRITICAL - 2024-03-13 14:59:41 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `komik`', [], false)
+ 3 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\KomikModel.php(17): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\Komik.php(31): App\Models\KomikModel->getKomik()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Komik->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\public\\index.php')
+INFO - 2024-03-13 15:00:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 15:00:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 15:01:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 15:01:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 15:01:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 15:01:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-13 17:37:52 --> ErrorException: Undefined variable $title
+in APPPATH\Views\layout\template.php on line 12.
+ 1 APPPATH\Views\layout\template.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\app\\Views\\layout\\template.php', 12)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\app\\Views\\layout\\template.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('layout/template', [], true)
+ 5 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('coba_view', [], true)
+ 6 APPPATH\Controllers\Coba.php(10): view('coba_view')
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Coba->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\public\\index.php')
+CRITICAL - 2024-03-13 17:47:39 --> ErrorException: Undefined variable $title
+in APPPATH\Views\layout\template.php on line 12.
+ 1 APPPATH\Views\layout\template.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\app\\Views\\layout\\template.php', 12)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\app\\Views\\layout\\template.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('layout/template', [], true)
+ 5 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('coba_view', [], true)
+ 6 APPPATH\Controllers\Coba.php(11): view('coba_view')
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Coba->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\public\\index.php')
+CRITICAL - 2024-03-13 17:47:41 --> ErrorException: Undefined variable $title
+in APPPATH\Views\layout\template.php on line 12.
+ 1 APPPATH\Views\layout\template.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\app\\Views\\layout\\template.php', 12)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\app\\Views\\layout\\template.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('layout/template', [], true)
+ 5 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('coba_view', [], true)
+ 6 APPPATH\Controllers\Coba.php(11): view('coba_view')
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Coba->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\public\\index.php')
+CRITICAL - 2024-03-13 17:48:02 --> ErrorException: Undefined variable $title
+in APPPATH\Views\layout\template.php on line 12.
+ 1 APPPATH\Views\layout\template.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\app\\Views\\layout\\template.php', 12)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\app\\Views\\layout\\template.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('layout/template', [], true)
+ 5 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('coba_view', [], true)
+ 6 APPPATH\Controllers\Coba.php(11): view('coba_view')
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Coba->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\public\\index.php')
+INFO - 2024-03-13 18:00:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-13 18:45:31 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "templates/header.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('templates/header.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('templates/header', [], true)
+ 3 APPPATH\Controllers\Pages_tutor.php(23): view('templates/header', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Pages_tutor->view('home')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages_tutor))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\public\\index.php')
+INFO - 2024-03-13 18:46:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 18:50:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 18:50:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 18:50:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 18:50:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -1,0 +1,467 @@
+CRITICAL - 2024-03-11 18:33:35 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\komik\index.php on line 21.
+ 1 APPPATH\Views\komik\index.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\app\\Views\\komik\\index.php', 21)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\app\\Views\\komik\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('komik/index', [], true)
+ 5 APPPATH\Controllers\Komik.php(26): view('komik/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Komik->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\public\\index.php')
+CRITICAL - 2024-03-11 18:36:23 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\komik\index.php on line 21.
+ 1 APPPATH\Views\komik\index.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\app\\Views\\komik\\index.php', 21)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\app\\Views\\komik\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('komik/index', [], true)
+ 5 APPPATH\Controllers\Komik.php(28): view('komik/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Komik->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\public\\index.php')
+CRITICAL - 2024-03-11 18:37:15 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\komik\index.php on line 21.
+ 1 APPPATH\Views\komik\index.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\app\\Views\\komik\\index.php', 21)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\app\\Views\\komik\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('komik/index', [], true)
+ 5 APPPATH\Controllers\Komik.php(28): view('komik/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Komik->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\public\\index.php')
+ERROR - 2024-03-11 21:05:42 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'ci4tutorial', 3306, '', 0)
+#1 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\app\Controllers\Komik.php(24): CodeIgniter\BaseModel->findAll()
+#7 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\CodeIgniter.php(941): App\Controllers\Komik->index()
+#8 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#9 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKT...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#5 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\app\Controllers\Komik.php(24): CodeIgniter\BaseModel->findAll()
+#6 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\CodeIgniter.php(941): App\Controllers\Komik->index()
+#7 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#8 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKT...')
+#11 {main}
+CRITICAL - 2024-03-11 21:05:42 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `komik`', [], false)
+ 3 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Komik.php(24): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Komik->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\public\\index.php')
+ERROR - 2024-03-11 21:06:28 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'ci4tutorial', 3306, '', 0)
+#1 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\app\Controllers\Komik.php(24): CodeIgniter\BaseModel->findAll()
+#7 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\CodeIgniter.php(941): App\Controllers\Komik->index()
+#8 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#9 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKT...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#5 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\app\Controllers\Komik.php(24): CodeIgniter\BaseModel->findAll()
+#6 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\CodeIgniter.php(941): App\Controllers\Komik->index()
+#7 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#8 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKT...')
+#11 {main}
+CRITICAL - 2024-03-11 21:06:28 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `komik`', [], false)
+ 3 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Komik.php(24): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Komik->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\public\\index.php')
+ERROR - 2024-03-11 21:09:51 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'ci4tutorial', 3306, '', 0)
+#1 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\app\Controllers\Komik.php(24): CodeIgniter\BaseModel->findAll()
+#7 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\CodeIgniter.php(941): App\Controllers\Komik->index()
+#8 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#9 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKT...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#5 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\app\Controllers\Komik.php(24): CodeIgniter\BaseModel->findAll()
+#6 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\CodeIgniter.php(941): App\Controllers\Komik->index()
+#7 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#8 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\MATKUL PRAKTEK\Semester 4\PBF\ci-news\system\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKT...')
+#11 {main}
+CRITICAL - 2024-03-11 21:09:51 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `komik`', [], false)
+ 3 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Komik.php(24): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Komik->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\public\\index.php')
+CRITICAL - 2024-03-11 21:16:39 --> Error: Object of class CodeIgniter\Router\RouteCollection could not be converted to string
+in APPPATH\Config\Routes.php on line 14.
+ 1 SYSTEMPATH\Router\RouteCollection.php(345): require()
+ 2 SYSTEMPATH\CodeIgniter.php(810): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 3 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\public\\index.php')
+CRITICAL - 2024-03-11 21:16:46 --> Error: Object of class CodeIgniter\Router\RouteCollection could not be converted to string
+in APPPATH\Config\Routes.php on line 14.
+ 1 SYSTEMPATH\Router\RouteCollection.php(345): require()
+ 2 SYSTEMPATH\CodeIgniter.php(810): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 3 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\public\\index.php')
+CRITICAL - 2024-03-11 21:48:00 --> Error: Cannot use object of type stdClass as array
+in APPPATH\Controllers\Home.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Database()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\public\\index.php')
+CRITICAL - 2024-03-11 21:48:34 --> Error: Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Home.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Database()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\public\\index.php')
+CRITICAL - 2024-03-11 21:59:12 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "komik/detail.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('komik/detail.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('komik/detail', [], true)
+ 3 APPPATH\Controllers\Komik.php(41): view('komik/detail', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Komik->detail('naruto')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\public\\index.php')
+CRITICAL - 2024-03-11 22:01:50 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\komik\detail.php on line 7.
+ 1 APPPATH\Views\komik\detail.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\app\\Views\\komik\\detail.php', 7)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\app\\Views\\komik\\detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('komik/detail', [], true)
+ 5 APPPATH\Controllers\Komik.php(41): view('komik/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Komik->detail('naruto.jpgpp')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\public\\index.php')
+CRITICAL - 2024-03-11 22:02:28 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\komik\detail.php on line 9.
+ 1 APPPATH\Views\komik\detail.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\app\\Views\\komik\\detail.php', 9)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\app\\Views\\komik\\detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('komik/detail', [], true)
+ 5 APPPATH\Controllers\Komik.php(41): view('komik/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Komik->detail('naruto.jpgpp')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\public\\index.php')
+CRITICAL - 2024-03-11 22:17:27 --> Error: Cannot use object of type App\Models\KomikModel as array
+in APPPATH\Views\komik\detail.php on line 10.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('komik/detail', [], true)
+ 4 APPPATH\Controllers\Komik.php(41): view('komik/detail', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Komik->detail('naruto')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\public\\index.php')
+CRITICAL - 2024-03-11 22:17:59 --> Error: Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+in APPPATH\Views\komik\detail.php on line 10.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('komik/detail', [], true)
+ 4 APPPATH\Controllers\Komik.php(41): view('komik/detail', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Komik->detail('naruto')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\public\\index.php')
+CRITICAL - 2024-03-11 22:18:06 --> Error: Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+in APPPATH\Views\komik\detail.php on line 10.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('komik/detail', [], true)
+ 4 APPPATH\Controllers\Komik.php(41): view('komik/detail', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Komik->detail('naruto')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\public\\index.php')
+CRITICAL - 2024-03-11 22:38:21 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\komik\detail.php on line 10.
+ 1 APPPATH\Views\komik\detail.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\app\\Views\\komik\\detail.php', 10)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\app\\Views\\komik\\detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('komik/detail', [], true)
+ 5 APPPATH\Controllers\Komik.php(41): view('komik/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Komik->detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\public\\index.php')
+CRITICAL - 2024-03-11 22:40:25 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\komik\detail.php on line 10.
+ 1 APPPATH\Views\komik\detail.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\app\\Views\\komik\\detail.php', 10)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\app\\Views\\komik\\detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('komik/detail', [], true)
+ 5 APPPATH\Controllers\Komik.php(41): view('komik/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Komik->detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\public\\index.php')
+CRITICAL - 2024-03-11 22:44:59 --> Error: Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+in APPPATH\Views\komik\detail.php on line 10.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('komik/detail', [], true)
+ 4 APPPATH\Controllers\Komik.php(49): view('komik/detail', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Komik->detailById('2')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\public\\index.php')
+CRITICAL - 2024-03-11 22:45:02 --> Error: Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+in APPPATH\Views\komik\detail.php on line 10.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('komik/detail', [], true)
+ 4 APPPATH\Controllers\Komik.php(49): view('komik/detail', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Komik->detailById('1')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\public\\index.php')
+CRITICAL - 2024-03-11 22:45:17 --> Error: Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+in APPPATH\Views\komik\detail.php on line 10.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('komik/detail', [], true)
+ 4 APPPATH\Controllers\Komik.php(49): view('komik/detail', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Komik->detailById('1')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\public\\index.php')
+CRITICAL - 2024-03-11 22:45:34 --> Error: Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+in APPPATH\Views\komik\detail.php on line 10.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('komik/detail', [], true)
+ 4 APPPATH\Controllers\Komik.php(49): view('komik/detail', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Komik->detailById('1')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\public\\index.php')
+CRITICAL - 2024-03-11 22:46:23 --> ErrorException: Undefined property: CodeIgniter\Database\MySQLi\Result::$sampul
+in APPPATH\Views\komik\detail.php on line 10.
+ 1 APPPATH\Views\komik\detail.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\Database\\MySQLi\\Result::$sampul', 'D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\app\\Views\\komik\\detail.php', 10)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\app\\Views\\komik\\detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('komik/detail', [], true)
+ 5 APPPATH\Controllers\Komik.php(49): view('komik/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Komik->detailById('1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\public\\index.php')
+CRITICAL - 2024-03-11 22:46:52 --> Error: Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+in APPPATH\Views\komik\detail.php on line 10.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('komik/detail', [], true)
+ 4 APPPATH\Controllers\Komik.php(49): view('komik/detail', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Komik->detailById('1')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\public\\index.php')
+CRITICAL - 2024-03-11 22:47:17 --> Error: Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+in APPPATH\Views\komik\detail.php on line 10.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('komik/detail', [], true)
+ 4 APPPATH\Controllers\Komik.php(49): view('komik/detail', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Komik->detailById('1')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\public\\index.php')
+CRITICAL - 2024-03-11 22:47:32 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Result::first()
+in APPPATH\Models\KomikModel.php on line 27.
+ 1 APPPATH\Controllers\Komik.php(47): App\Models\KomikModel->getKomikbyId('naruto')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Komik->detailById('naruto')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\public\\index.php')
+CRITICAL - 2024-03-11 22:47:33 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Result::first()
+in APPPATH\Models\KomikModel.php on line 27.
+ 1 APPPATH\Controllers\Komik.php(47): App\Models\KomikModel->getKomikbyId('naruto')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Komik->detailById('naruto')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\public\\index.php')
+CRITICAL - 2024-03-11 22:47:35 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Result::first()
+in APPPATH\Models\KomikModel.php on line 27.
+ 1 APPPATH\Controllers\Komik.php(47): App\Models\KomikModel->getKomikbyId('1')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Komik->detailById('1')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\public\\index.php')
+CRITICAL - 2024-03-11 22:51:50 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\komik\detail.php on line 10.
+ 1 APPPATH\Views\komik\detail.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\app\\Views\\komik\\detail.php', 10)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\app\\Views\\komik\\detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('komik/detail', [], true)
+ 5 APPPATH\Controllers\Komik.php(41): view('komik/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Komik->detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\public\\index.php')
+CRITICAL - 2024-03-11 22:51:54 --> BadMethodCallException: Call to undefined method App\Models\KomikModel::getKomikbyId
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Controllers\Komik.php(29): CodeIgniter\Model->__call('getKomikbyId', [])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Komik->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\public\\index.php')
+CRITICAL - 2024-03-11 22:52:01 --> BadMethodCallException: Call to undefined method App\Models\KomikModel::getKomikbyId
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Controllers\Komik.php(29): CodeIgniter\Model->__call('getKomikbyId', [])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Komik->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\public\\index.php')
+CRITICAL - 2024-03-11 22:52:21 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\komik\detail.php on line 10.
+ 1 APPPATH\Views\komik\detail.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\app\\Views\\komik\\detail.php', 10)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\app\\Views\\komik\\detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('komik/detail', [], true)
+ 5 APPPATH\Controllers\Komik.php(41): view('komik/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Komik->detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\public\\index.php')
+CRITICAL - 2024-03-11 22:53:11 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\komik\detail.php on line 10.
+ 1 APPPATH\Views\komik\detail.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\app\\Views\\komik\\detail.php', 10)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\app\\Views\\komik\\detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('komik/detail', [], true)
+ 5 APPPATH\Controllers\Komik.php(41): view('komik/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Komik->detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\public\\index.php')
+CRITICAL - 2024-03-11 22:54:21 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\komik\detail.php on line 10.
+ 1 APPPATH\Views\komik\detail.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\app\\Views\\komik\\detail.php', 10)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\app\\Views\\komik\\detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('komik/detail', [], true)
+ 5 APPPATH\Controllers\Komik.php(41): view('komik/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Komik->detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\public\\index.php')
+CRITICAL - 2024-03-11 22:55:06 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\komik\detail.php on line 10.
+ 1 APPPATH\Views\komik\detail.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\app\\Views\\komik\\detail.php', 10)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\app\\Views\\komik\\detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('komik/detail', [], true)
+ 5 APPPATH\Controllers\Komik.php(41): view('komik/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Komik->detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\MATKUL PRAKTEK\\Semester 4\\PBF\\ci-news\\public\\index.php')
